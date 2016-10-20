@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dom table</title>
+	</head>
+	<body>
+		<script>
+			var title = document.createElement('h2');
+			title.innerHTML = '学生信息表';
+			title.setAttribute('ID','tHead');
+			document.body.appendChild(title);
+			
+			var styles = document.createElement('link');
+			styles.rel = 'stylesheet';
+			styles.setAttribute('type','text/css');
+			styles.setAttribute('href','styles/index.css');
+			document.head.appendChild(styles);
+		</script>
+		<script src="js/create.js"></script>
+	</body>
+</html>

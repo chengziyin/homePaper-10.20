@@ -1,0 +1,96 @@
+#tHead {
+  text-align: center;
+}
+
+#addInfo {
+  position: absolute;
+  top: 78px;
+  right: 250px;
+  font-size: 24px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+table tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+table tr td button {
+  background-color: darkgoldenrod;
+  color: honeydew;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 2px 1px 0 #000;
+  font-size: 18px;
+}
+
+table th {
+  padding: 10px;
+}
+
+.showPal {
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.showPal .addPal {
+  width: 400px;
+  height: 485px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 100px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.showPal .addPal .palTitle {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  color: #fff;
+}
+
+.showPal .addPal .exit {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  font-size: 17px;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ccc;
+}
+
+.showPal .addPal .line {
+  line-height: 30px;
+  display: flex;
+}
+
+.showPal .addPal .line label {
+  width: 110px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.showPal .addPal .clickBtn {
+  margin-left: 70px;
+  font-size: 30px;
+  background-color: chartreuse;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
